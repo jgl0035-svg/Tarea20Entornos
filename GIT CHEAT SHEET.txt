@@ -1,0 +1,41 @@
+GIT CHEAT SHEET
+Comandos usados en la tarea y para qué sirve cada uno
+
+1. git init
+   Crea un repositorio Git dentro de la carpeta del proyecto.
+
+2. git status
+   Muestra el estado del repositorio: archivos modificados, sin seguimiento o listos para commit.
+
+3. git add .
+   Añade todos los archivos modificados al área de preparación para el próximo commit.
+
+4. git commit -m "mensaje"
+   Guarda los cambios en el historial del repositorio con un mensaje descriptivo.
+
+5. git branch
+   Muestra todas las ramas existentes en el repositorio.
+
+6. git branch feature-update
+   Crea una nueva rama llamada "feature-update" para trabajar sin afectar la rama principal.
+
+7. git checkout feature-update
+   Cambia a la rama "feature-update" para trabajar en ella.
+
+8. git branch -M main
+   Renombra la rama actual (master) a "main". Necesario para GitHub Pages.
+
+9. git checkout main
+   Cambia a la rama principal "main".
+
+10. git merge feature-update
+    Fusiona los cambios de la rama "feature-update" dentro de "main".
+
+11. git remote add origin URL
+    Conecta el repositorio local con el repositorio remoto de GitHub.
+
+12. git push -u origin main
+    Sube la rama principal al repositorio remoto por primera vez.
+
+13. git push
+    Sube nuevos commits al repositorio remoto.
