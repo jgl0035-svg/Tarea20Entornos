@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulador Champions 36 equipos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>UEFA Champions League – Simulador 36 equipos</h1>
+  </header>
+
+  <main>
+    <section class="panel panel-left">
+      <h2>Bombos</h2>
+      <div id="bombos"></div>
+    </section>
+
+    <section class="panel panel-center">
+      <h2>Sorteo</h2>
+      <button id="btnSorteo">Realizar sorteo completo</button>
+
+      <div class="sorteo-config">
+        <label for="equipoSorteo">Ver animación del sorteo para:</label>
+        <select id="equipoSorteo"></select>
+        <button id="btnAnimacion">Ver animación</button>
+      </div>
+
+      <div id="animacionSorteo" class="animacion"></div>
+
+      <h2>Jornadas</h2>
+      <label>Jornada:
+        <select id="selectJornada"></select>
+      </label>
+      <div id="partidosJornada"></div>
+    </section>
+
+    <section class="panel panel-right">
+      <h2>Clasificación</h2>
+      <div id="clasificacion"></div>
+      <p class="leyenda">
+        <span class="top8">1–8: Octavos</span> ·
+        <span class="playoff">9–24: Playoff</span> ·
+        <span class="out">25–36: Eliminados</span>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Simulador creado para práctica de Git y desarrollo web.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
